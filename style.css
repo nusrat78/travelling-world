@@ -11,7 +11,7 @@ body{
 }
 .border-part{
     border-left: 5px solid;
-    border-color: darkblue;
+    border-color: rgb(29, 136, 136);;
     border-image-slice: 1;
     padding-left: 10px;
     font-size: 30px;
@@ -30,11 +30,11 @@ body{
     line-height: 3;
 }
 .first-color{
-    color: rgb(29, 136, 136);
+    color:darkblue 
 }
 .travel-place{
     text-align: center;
-    padding-top: 200px;
+    margin-top: 20%;
     font-size: 50px;
 }
 .place-img{
@@ -61,4 +61,35 @@ body{
     margin: 20px;
     background-color: rgb(255, 187, 160);
     border-radius: 20px;
+}
+
+
+.footer-sec{
+    text-align: center;
+    background-color: lightskyblue;
+    width: 1400px;
+    height: 100px;
+    margin-top: 20%;
+}
+.box-picture1{
+    width: 50%;
+   padding-left: 5%;
+   padding-right: 10%;
+}
+.box-picture2{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 20%;
+}
+.box-picture1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-left: 40%;
+}
+.box-picture2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    
 }

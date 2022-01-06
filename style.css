@@ -5,7 +5,7 @@ body{
     display: flex;
     padding-top: 150px; 
 }
-.org-flexible img{
+.profile-img{
     width: 80%;
     padding-left: 10%;
 }
@@ -31,4 +31,34 @@ body{
 }
 .first-color{
     color: rgb(29, 136, 136);
+}
+.travel-place{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+}
+.place-img{
+    width: 90px;
+}
+.first-places{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 120px;
+    background-color: rgb(240, 240, 183);
+    border-radius: 20px;
+}
+.second-places{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 200, 209);
+    border-radius: 20px;
+}
+.third-places{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 187, 160);
+    border-radius: 20px;
 }
